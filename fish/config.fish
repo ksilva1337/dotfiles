@@ -3,7 +3,7 @@ if status is-interactive
 end
 
 set fish_greeting
-neofetch
+neofetch --color_blocks off | lolcat
 
 # Function for creating a backup file
 # ex: backup file.txt
