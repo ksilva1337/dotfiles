@@ -332,7 +332,7 @@ exec --no-startup-id flameshot
 exec --no-startup-id blueman-applet
 #exec_always --no-startup-id nitrogen --set-zoom-fill ~/.wallpaper.png
 exec_always wal -i $HOME/.wallpaper.png
-#exec_always wal -i $HOME/Dropbox/archsweet.png
+#exec wal -i $HOME/Dropbox/archsweet.png
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 
